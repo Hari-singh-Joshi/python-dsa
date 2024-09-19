@@ -1,0 +1,60 @@
+
+<div class="form-popup" id="myForm">
+  <h1><b>Signup Form<b></h1>
+  <form action={% url 'home'%} method="POST" class="form-container" >
+    {%csrf_token%}
+      <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+      </div>
+
+      <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+      </div>
+
+      <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+
+      <div class="form-group">
+          <input type="submit" id="btn" value="Sign Up" onclick="info()">
+          <button type="button" class="btn-close" aria-label="Close" onclick="closeForm()"></button>
+      </div>
+  </form>
+</div>
+
+<div class="form-popup" id="myForml">
+<h1><b>Login Form<b></h1>
+
+  {% if error_message %}
+  <p class="error-message">{{ error_message }}</p>
+  {% endif %}
+<form action={% url 'login'%} method="POST" class="form-container" >
+  {%csrf_token%}
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+
+    
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" id="btns" value="Log in" name="submit">
+        <button type="button" class="btn-close" aria-label="Close" onclick="closeLogForm()"></button>
+    </div>
+    <br>
+    <br>
+    <a href="#">Don't have an account</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Forgot password</a>
+</form>
+</div>

@@ -1,0 +1,1 @@
+class _init_(self,my_roll,my_name,)

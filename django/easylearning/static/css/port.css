@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+    display:flex;
+    background-image: url("/static/img/background.png");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+.img{
+    
+    border-radius: 50%;
+    
+
+}
+.profile{
+    position:absolute;
+    right:18%;
+    bottom:51%;
+}
+.detail{
+    position:absolute;
+    right:16%;
+    bottom:34%;
+    text-align: center;
+    color:blueviolet
+   
+}
+.strip{
+    background-image: url(/static/img/strip.jpg);
+    position:absolute;
+    height: 20vh;
+    width: 20%;
+    right: 12%;
+    bottom: 7%;
+    background-repeat: no-repeat;
+}
+.red{
+    color:white;
+    text-shadow:2px 3px 5px white;
+}
+.hh{
+    color:aliceblue;
+    text-shadow: 2px 3px 5px black;
+}
+.hello{
+    font-size:2rem;
+    font-weight: bolder;
+    color:white;
+    position: absolute;
+    right:85%;
+    top:10%;
+    
+
+}
+.hel{
+    text-shadow: 2px 3px 5px black;
+}
+.line{
+    position: absolute;
+    right:79.5%;
+    top:26%;
+
+}
+.li{
+    color:black;
+    font-size: 1.15rem;
+    text-shadow: 1px 2px 3px white;
+}
+.resume{
+background-color: blue;
+color:white;
+border-radius:10px;
+width:40%;
+height:60%;
+}
+.Projects{
+    background-color: white;
+    color:black;
+    border-radius:10px;
+    width:40%;
+height:60%;
+}
+.para{
+    position:absolute;
+    right: 65%;
+    bottom:45%;
+    color:black;
+    font-size: medium;
+}
+.para1{
+    position:absolute;
+    right: 72%;
+    bottom:22%;
+    color:black;
+    font-size: medium;
+    text-shadow: 1px 2px 3px white
+}
+.para2{
+    position:absolute;
+    right: 52%;
+    bottom:4%;
+    color:black;
+    font-size: medium;
+    text-shadow: 1px 2px 3px white;
+}

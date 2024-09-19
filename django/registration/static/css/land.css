@@ -1,0 +1,105 @@
+*{
+    margin:0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    overflow:hidden;
+
+
+}
+.logo{
+    position: relative;
+    top:-5rem;
+    right:3%;
+}
+.ltext{
+    position: relative;
+    top: 3rem;
+    right:-17%;
+    color:blue;
+
+}
+.top{
+    position: relative;
+    float:right;
+    bottom:14rem;
+    right:8%;
+    text-decoration: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 14px 16px;
+}
+
+.top a {
+    float: left;
+    padding: 12px;
+    color: red;
+    text-decoration: none;
+    font-size: 17px;
+    cursor:pointer;
+  }
+  .but{
+   
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      width:7rem;
+      height:2rem;
+      color:red;
+      border:none;
+      cursor:pointer;
+      position: relative;
+    
+     
+  }
+  .landing{
+    color:rgb(0, 0, 255);
+    font-weight: bolder;
+  }
+  .text{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .land{
+    position: relative;
+    right:-3%;
+    top:0rem;
+  }
+  .service{
+    position: relative;
+    right:-3%;
+    top:6rem;
+    color:darkgoldenrod
+ 
+  }
+  .serv{
+    color:darkgoldenrod
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+  }
+  
+  .ser2{
+    position:relative;
+    top:-8rem;
+    right:-16%;
+  }
+ 
+  .ser3{
+    position:relative;
+    top:-15rem;
+    right:-32%;
+  }
+  .topf{
+    position:relative;
+    top:3rem;
+  }
+.im{ 
+    
+position:relative;
+height:auto;
+top:-36rem;
+right:-50%;
+
+    }
+   .tt{
+    position:relative;
+    top:1rem;
+    right:-3%;
+   }

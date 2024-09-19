@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home-page</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/hom.css">
+	
+
+</head>
+
+
+
+
+{% load static %}
+
+<body>
+
+
+
+
+	<header>
+		<h1>Student Management System</h1>
+		<nav>
+			<ul class="ts">
+				<li class="{% if request.path == '/' %}active{% endif %}">
+                    <a href="/landingpage">Landing_page</a>
+                </li>
+                
+				<li><a href="/portfolio">portfolio</a></li>
+				<li><a href="{% url 'ris' %}">calculator</a></li>
+				<li><a href="#">Mentor-Mentee</a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</nav>
+	</header>

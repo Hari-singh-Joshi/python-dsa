@@ -1,0 +1,25 @@
+/* login/signup button */
+#bb{
+    position:relative;
+    float: right;
+    margin-right:10px;
+}
+/* text-move */
+
+.moving-text-container {
+    overflow: hidden;
+}
+
+.moving-text {
+    white-space: nowrap;
+    animation: moveText 10s linear infinite;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}

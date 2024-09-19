@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>django-calculator</title>
+    </head>
+<body>
+<form method="POST">
+    {% csrf_token %}
+    <label>Value 1</label>
+    <input type="text" name="value1"><br>
+    <label>Value 2</label>
+    <input type="text" name="value2"><br>
+    <label>operation</label>
+    <select name="operation">
+        <option value="+">+</option> 
+        <option value="-">-</option> 
+        <option value="*">*</option> 
+        <option value="/">/</option> 
+    </select><br>
+  
+    
+    <button type="submit">calculator</button><br>
+    output:
+    <input type="text" value="{{c}}">
+
+</form>
+</body>
+</html>

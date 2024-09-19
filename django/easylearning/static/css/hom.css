@@ -1,0 +1,120 @@
+*{
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/static/img/tests.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+}
+
+header {
+    background-color: #e9b60d;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    position:relative;
+    display: inline; /* Change to block for smaller screens */
+    margin-right: 16px; /* Remove margin for smaller screens */
+    right:-55%;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+
+
+main {
+    margin: 21px;
+    position: relative;
+    width: 100%;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #f10606;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    top: -1rem; /* Reset top position */
+    right: -83%; /* Reset right position */
+    position: relative;
+}
+
+.button:hover {
+    background-color: #ccc;
+    color: #333;
+}
+
+.h2 {
+    font-weight: 500;
+    color: #00ff30ad;
+}
+
+.detail {
+    position: relative;
+    top: 0; /* Reset top position */
+    right: 0; /* Reset right position */
+    color: #f03d08;
+}
+
+h3 {
+    color: red;
+    font-size: 33px;
+}
+
+.ts {
+    position: relative;
+    top: 0; /* Reset top position */
+}
+
+.hh {
+    color: #EFEB;
+    top: 0; /* Reset top position */
+    right: 0; /* Reset right position */
+    position: relative;
+    font-size: 36px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    nav li {
+        display: inline; /* Change back to inline-block for larger screens */
+        margin-right: 20px; /* Reset margin for larger screens */
+        margin-bottom: 0; /* Reset margin-bottom for larger screens */
+    }
+
+    nav a {
+        display: inline; /* Change back to inline-block for larger screens */
+    }
+
+    .button {
+        margin-top: 0; /* Reset margin-top for larger screens */
+    }
+}
+header .active a{
+background-color: red;
+}

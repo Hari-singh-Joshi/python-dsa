@@ -1,0 +1,19 @@
+<html>
+    <head> 
+        <title>userform</title>
+    </head>
+    <body>
+        
+        <form action="{% url 'submitform' %}" method="POST">
+            {% csrf_token %}
+            <label>Name</label><br>
+            <input type="text" name="names"><br>
+            
+            <label>gmail</label><br>
+            <input type="gmail" name="gmails"><br>
+
+            <button type="submit">save</button><br>
+            output<br>
+            <input type="text" value="{{output}}">
+    </body>
+    </html>

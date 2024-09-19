@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>content management</title>
+    <link rel="stylesheet" href="/static/css/content.css">
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %} 
+
+    <div class="contents">
+    <h1 align="center">Create post</h1>
+    </div>
+    <div class="cbody">
+        <label>Title</label><br>
+        <input type="text" name="title"><br><br>
+        <label>Thumbnail</label><br>
+        <input type="file" name="Thumbnail"><br><br>
+        <label>Uploading image related to content</label><br>
+        <input type="file" name="image"><br>
+        
+        
+        
+        </div>
+        <div class="con">
+            <h2>Write your content here</h2><br>
+            <textarea rows="9" cols="60" name="tex">Write your content here</textarea>
+            </div>
+            <button type="submit" id="but" name="buts">Submit</button>
+</form>
+
+</body>
+
+</html>
